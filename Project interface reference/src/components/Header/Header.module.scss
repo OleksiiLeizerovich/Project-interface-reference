@@ -1,0 +1,61 @@
+header {
+    position: sticky;
+    // width: 1440px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.menu1 {
+    display: flex;
+    height: 72px;
+    padding: 16px 52px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    background: #10BBD5;
+    box-sizing: border-box;
+}
+
+.cart {
+    background: #10BBD5;
+    border: none;
+    position: relative;
+}
+
+.cartNum {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+}
+
+.pay {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.wallet {
+    color: #F8FDFE;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.menu2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0da4bb;
+    padding: 10px 52px;
+    box-sizing: border-box;
+
+}
+
+.userBtns {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
